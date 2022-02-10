@@ -29,6 +29,14 @@ input#Search {
     align-items: center;
     border: solid #dfdfdf 0.11rem;
 }
+/* media query use in search input */
+@media only screen and (max-width: 375px) and (min-width:300px) {
+    nav #Search {
+      width: 5rem;
+      /* background-color: red; */
+    }
+  }
+/* media query end */
 .hlw{
     border: solid #dfdfdf 0.11rem;
     padding-left: 1rem;
